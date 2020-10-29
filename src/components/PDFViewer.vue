@@ -5,8 +5,6 @@
 </template>
 
 <script>
-import 'pdfjs-dist/web/pdf_viewer.css'
-// eslint-disable-next-line max-len
 import {
   DefaultAnnotationLayerFactory,
   DefaultTextLayerFactory,
@@ -82,3 +80,5 @@ export default {
   }
 }
 </script>
+
+<style src="pdfjs-dist/web/pdf_viewer.css"></style>
